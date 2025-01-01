@@ -22,6 +22,7 @@ const Footer = () => {
     
             if (success) {
                 toast.success(message);
+               setEmail("");
             } else {
                 toast.error(message);
             }
