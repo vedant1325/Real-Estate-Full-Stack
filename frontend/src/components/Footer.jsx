@@ -15,7 +15,7 @@ const Footer = () => {
         try {
             axios.defaults.withCredentials = true;
     
-            const response = await axios.post(`http://localhost:4000/api/user/subscribe`, { email });
+            const response = await axios.post(`https://real-estate-28mw.onrender.com/api/user/subscribe`, { email });
     
             // Access the response data correctly
             const { success, message } = response.data;
