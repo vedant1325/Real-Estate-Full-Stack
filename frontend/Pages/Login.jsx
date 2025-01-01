@@ -6,7 +6,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const Login = () => {
-  const backendURL = "http://localhost:4000";
+  const backendURL = "https://real-estate-28mw.onrender.com";
   const navigate = useNavigate();
   const [state, setState] = useState("Sign Up");
   const [name, setName] = useState("");
