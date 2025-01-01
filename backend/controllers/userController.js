@@ -1,9 +1,11 @@
 import jwt from 'jsonwebtoken';
 import subscriberModel from "../Models/Subscriber.js";
 import userModel from '../Models/userModel.js'; // Importing the user model
-import bcrypt from 'bcrypt'; 
+import bcrypt from 'bcryptjs'
 import transporter from "../config/nodeMailer.js";
 import validator from 'validator'; // Importing validator for email validation
+
+
 
 // Token creation function
 const createToken = (id) => {
