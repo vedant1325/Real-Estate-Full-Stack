@@ -1,18 +1,32 @@
-<a href="https://real-estate-frontend-bfpz.onrender.com">Live Website</a>
-# Estate Website
+# 🏡 Real Estate Full Stack Website  
 
-The Estate Website is a modern web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides users with seamless access to property listings and includes features like login authentication and a subscription form for newsletters.
+🚀 **A modern real estate platform** built with the **MERN (MongoDB, Express.js, React.js, Node.js) stack**.  
+Users can **browse property listings, log in securely, and subscribe** for real estate updates.  
 
-## Features
+🌐 **Live Demo:** [Real Estate Website](https://real-estate-frontend-bfpz.onrender.com)  
+📂 **GitHub Repository:** [GitHub Repo](https://github.com/vedant1325/Real-Estate-Full-Stack.git)  
 
-- **User Authentication**: Secure login functionality for users.
-- **Newsletter Subscription**: Allows users to subscribe and receive the latest updates and news.
-- **Modern UI**: Built with React.js for a smooth and interactive user experience.
-- **Full-Stack Functionality**: Powered by Node.js and Express.js on the backend, and MongoDB for database management.
+---
 
-## Tech Stack
+## 📌 About  
+This web application allows users to **view properties, create an account, and subscribe** to newsletters.  
+Built with a **responsive and interactive UI**, the platform provides a seamless property browsing experience.  
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Styling**:Tailwind CSS and React libraries
+---
+
+## 🎨 Features  
+✅ **User Authentication** – Secure login functionality 🔒  
+✅ **Newsletter Subscription** – Stay updated with the latest property listings 📩  
+✅ **Modern UI/UX** – Built with React.js for a sleek and interactive experience 🎨  
+✅ **Full-Stack Functionality** – Backend powered by Node.js, Express.js, and MongoDB ⚙️  
+✅ **Mobile-Friendly Design** – Fully responsive for all devices 📱💻  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** React.js  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Styling:** CSS & React Libraries (Tailwind, Material-UI, etc.)  
+
+---
