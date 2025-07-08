@@ -14,16 +14,15 @@ const port=process.env.PORT || 4000;
 app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins=['https://real-estate-frontend-bfpz.onrender.com','https://real-estate-admin.onrender.com']
-app.use(cors({
-    origin: (origin, callback) => {
-        if (allowedOrigins.includes(origin) || !origin) {
-            // Allow requests with no origin (e.g., mobile apps or Postman)
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    credentials: true,
+app.options('*', cors({
+  origin: (origin, callback) => {
+      if (allowedOrigins.includes(origin) || !origin) {
+          callback(null, true);
+      } else {
+          callback(new Error('Not allowed by CORS'));
+      }
+  },
+  credentials: true,
 }));
 connectDB();
 
